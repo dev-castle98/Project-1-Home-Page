@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
+nav{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 10%; /*investigar que significa el 10%*/
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+
+.links{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    color: #f9faf8;
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    padding: 100PX 10%;
+    gap: 10px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secundary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #3882F6;
+  color: #F9FAF8;
+  font-weight: 700;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+.img-header,
+.button-card{
+    border: 2px solid white;
+}
+
+
+.main-container{
+    padding:  80px 0;
+}
+
+
+.title-information{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding-bottom: 40px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.cuadros{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    max-width: 250px;
+}
+
+.img-information{
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.testimonios{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.quote-container{
+    max-width: 950px;
+    
+}
+
+.quote-text{
+    text-align: justify;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.figcaption{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+
+.call-action{
+    display: flex;
+    justify-content: center;
+}
+
+.card-action{
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15%;
+    padding: 30px 4%;
+    color: #F9FAF8;
+}
+
+.left-call-action{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    background-color: #1f2937;
+}
+
+.align-footer{
+    color: #F9FAF8;
+    text-align: center;
+    padding: 2%;
+}
